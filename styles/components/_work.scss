@@ -1,0 +1,23 @@
+.work{
+    margin-top: 25px;
+
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.img-wrapper{
+    overflow: hidden;
+
+    img{
+        transition: transform 0.5s ease;
+        width: 100%;
+    }
+}
+
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}

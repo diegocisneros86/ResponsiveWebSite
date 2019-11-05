@@ -1,0 +1,46 @@
+.teams{
+    margin-top: 50px;
+
+    .team-member{
+        margin: 0 25px;
+    }
+
+    .team-member-info{
+        padding: 10px 0 30px 0;
+
+        .team-member-name{
+            font-size: 19px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-top: 2px;
+        }
+
+        .team-member-charge{
+            color: #34c6d3; //deepskyblue
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            text-transform: capitalize;
+        }
+
+        .social-list{
+            padding-left: 0;
+            
+            li{
+                list-style: none;
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                margin-right: 6px;
+                scroll-margin-top: 10px;
+            }
+
+            a{
+                font-size: 17px;
+                color: #64707b;
+            }
+        }
+    }
+}
+
